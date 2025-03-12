@@ -1,39 +1,8 @@
-name: "Bug Report"
-description: "Use this form to report a bug or unexpected behavior."
-title: "Bug report"
-labels: ["bug"]
-
-fields:
-  - type: markdown
-    value: |
-      **Please provide a detailed description of the bug.**
-
-  - type: textarea
-    attribute: description
-    label: "Bug Description"
-    description: "Provide a clear and concise description of the bug."
-    required: true
-
-  - type: textarea
-    attribute: steps_to_reproduce
-    label: "Steps to Reproduce"
-    description: "List the steps to reproduce the behavior."
-    required: true
-
-  - type: textarea
-    attribute: expected_behavior
-    label: "Expected Behavior"
-    description: "What should happen instead?"
-    required: true
-
-  - type: textarea
-    attribute: actual_behavior
-    label: "Actual Behavior"
-    description: "What actually happens?"
-    required: true
-
-  - type: textarea
-    attribute: environment
-    label: "Environment"
-    description: "Please provide information about your environment (OS, Version, etc.)."
-    required: false
+bug_report:
+  name: "Bug Report"
+  description: "Report an unexpected behavior or issue."
+  labels: bug
+feature_request:
+  name: "Feature Request"
+  description: "Suggest a new feature or improvement."
+  labels: enhancement
